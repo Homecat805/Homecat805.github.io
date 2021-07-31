@@ -456,9 +456,7 @@ body {
     margin-top: 1rem; }
 
 #meta {
-  margin: 3rem .5rem;
-  width: 100%;
-  max-width: 800px; }
+  margin: 3rem .5rem; }
   #meta .tags {
     border-top: 1px solid var(--border-light);
     border-bottom: 1px solid var(--border-light);
@@ -497,13 +495,14 @@ body {
 @media screen and (min-width: 600px) {
   #content {
     margin: 0 1rem; }
+  #meta {
+    margin: 3rem 1rem; }
   #comment {
-    margin: 0 1rem; }
-  #meta {
-    margin: 3rem 1rem; } }
+    margin: 0 1rem; } }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   #meta {
+    max-width: 800px;
     margin: 3rem auto; } }
 
 .markdown {
