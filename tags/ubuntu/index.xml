@@ -6,34 +6,24 @@
     <description>Recent content in Ubuntu on 既明勿昧</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <copyright>© 2021 Genway. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 14 Jun 2021 20:25:41 +0800</lastBuildDate><atom:link href="https://genway.top/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2021 简为工作室 版权所有</copyright>
+    <lastBuildDate>Sat, 31 Jul 2021 13:16:03 +0800</lastBuildDate><atom:link href="https://genway.top/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git 的安装和使用</title>
-      <link>https://genway.top/blog/git-practice/</link>
-      <pubDate>Mon, 14 Jun 2021 20:25:41 +0800</pubDate>
+      <title>Git 使用笔记</title>
+      <link>https://genway.top/blog/git/</link>
+      <pubDate>Sat, 31 Jul 2021 13:16:03 +0800</pubDate>
       
-      <guid>https://genway.top/blog/git-practice/</guid>
-      <description>&lt;p&gt;Git 是一个开源的分布式版本控制系统，也是内容管理系统(CMS)和工作管理系统，适用于各类项目。&lt;/p&gt;</description>
+      <guid>https://genway.top/blog/git/</guid>
+      <description>&lt;p&gt;Git 是一个开源的分布式版本控制系统，也是内容管理系统(CMS)和工作管理系统，适用于各类项目。既可以在本地使用，也适用远程仓库。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Atom 的安装和使用</title>
-      <link>https://genway.top/blog/atom-practice/</link>
-      <pubDate>Mon, 14 Jun 2021 15:38:27 +0800</pubDate>
-      
-      <guid>https://genway.top/blog/atom-practice/</guid>
-      <description>&lt;p&gt;Atom 是 Github 专门为程序员推出的一个跨平台文本编辑器，丰富的插件几乎能够满足所有 web 开发需求。
-。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 安装、设置与使用</title>
+      <title>Ubuntu 使用笔记</title>
       <link>https://genway.top/blog/ubuntu-practice/</link>
-      <pubDate>Mon, 14 Jun 2021 10:36:43 +0800</pubDate>
+      <pubDate>Mon, 26 Jul 2021 15:40:12 +0800</pubDate>
       
       <guid>https://genway.top/blog/ubuntu-practice/</guid>
-      <description>&lt;p&gt;Ubuntu 是一个以桌面应用为主的 Linux 操作系统，因其开源软件之属性而获得广泛应用。&lt;/p&gt;</description>
+      <description>&lt;p&gt;Ubuntu 桌面系统是非常优秀的开源软件，提供了基本应用程序，如办公套件，浏览器，电子邮件和多媒体应用程序等，以及 Ubuntu 软件中心提供的数千个游戏和应用程序。使用 Ubuntu 有些日子了，简单总结，以备查阅。&lt;/p&gt;</description>
     </item>
     
   </channel>

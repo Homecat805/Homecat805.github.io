@@ -12,7 +12,7 @@
 
 
 
-<title>Ubuntu 安装、设置与使用 ｜ 既明勿昧</title>
+<title>Ubuntu 使用笔记 ｜ 既明勿昧</title>
 
 
 
@@ -27,7 +27,7 @@
 </head>
    <body>
       
-      <header id="header"><div id="title">
+      <header id="site-header"><div id="title">
    <a id="logo" href="/">既明勿昧</a>
    <a id="menu-toggle" class="burger">
       <span></span>
@@ -56,32 +56,24 @@
 			<a class="active" href="/blog/">博客</a>
 		</li>
 		
-         
-         
-         
-         
-		<li class="menu-item">
-			<a class="" href="/about/">关于</a>
-		</li>
-		
+
+    
+    <li class="menu-item">
+      
+      <a href="https://genway.top/en/">英文版</a>
+      
+      
+    </li>
+    
+
 	</ul>
 </div>
-
-
-<div id="langswitch">
-   
-   <a href="https://genway.top/en/">英文版</a>
-   
-   
-
-</div>
-
 </header>
       
-      <div id="container">
+      <div id="site-stage">
          
-         <div id="stage">
-   <main id="blog-main"><div id="breadcrumb">
+         <div id="stage-center">
+   <main id="main"><div id="breadcrumb">
    <ol>
      
       
@@ -100,63 +92,79 @@
    
       
       <li>
-         <a href="https://genway.top/blog/ubuntu-practice/">Ubuntu 安装、设置与使用</a>
+         <a href="https://genway.top/blog/ubuntu-practice/">Ubuntu 使用笔记</a>
       </li>
    
    </ol>
    
 </div>
-<div class="container"><article id="content">
+<article id="content">
 	<header class="content-header">
-		<p class="title">Ubuntu 安装、设置与使用</p>
-		<p>
-			<span>
-				
-					Homecat
-				
-			</span>
+		<p class="title">Ubuntu 使用笔记</p>
+		<p class="author">
+			
+				家猫
+			
+
 		</p>
 	</header>
-	<div class="markdown"><p>Ubuntu 是一个以桌面应用为主的 Linux 操作系统，因其开源软件之属性而获得广泛应用。</p>
-<h2 id="ubuntu-2004-lts-的安装">Ubuntu 20.04 LTS 的安装</h2>
-<h4 id="下载安装文件">下载安装文件</h4>
-<p>在 Ubuntu 官网 <a href="https://ubuntu.com">ubuntu.com</a>，可以下载到 Ubuntu 20.04 LTS 的安装文件。安装文件有多种版本，也可以采用不同的安装方式。客户端可以使用的最新的长期支持的稳定版本为：<code>ubuntu-20.04.2.0-desktop-amd64.iso</code>。
-如果主站的下载速度比较慢，可以在<a href="https://launchpad.net/ubuntu/+cdmirrors">镜像网站</a>选择速度快的。</p>
-<h4 id="制作安装盘">制作安装盘</h4>
-<p>使用 Rufus 制作 Ubuntu 系统的安装盘。由于 Rufus 只能在 Windows 上运行，并且要求 Win7 及后续版本(32或64位均可)，因此制作过程要在 Windows 环境中进行。</p>
+	<div class="markdown"><p>Ubuntu 桌面系统是非常优秀的开源软件，提供了基本应用程序，如办公套件，浏览器，电子邮件和多媒体应用程序等，以及 Ubuntu 软件中心提供的数千个游戏和应用程序。使用 Ubuntu 有些日子了，简单总结，以备查阅。</p>
+<h2 id="一系统安装">一、系统安装</h2>
+<p>选择使用 USB 启动方式安装 Ubuntu 桌面系统。</p>
+<h3 id="1源或镜像">1、源或镜像</h3>
 <ul>
-<li>从 Rufus 官网 <a href="http://rufus.ie">rufus.ie</a>下载 <code>rufus.exe</code> 文件。</li>
-<li>制作过程简单，在程序界面上依次选择下载的 ISO 文件、启动模式等参数后，按开始即可。（特别说明：启动模式的选择很重要，和要安装电脑的启动模式有关系，BIOS 或者 UEFI，必须正确选择。）</li>
+<li>官网：<a href="https://cn.ubuntu.com/download/desktop">https://cn.ubuntu.com/download/desktop</a></li>
+<li>其它镜像：<a href="https://launchpad.net/ubuntu/+cdmirrors">https://launchpad.net/ubuntu/+cdmirrors</a></li>
 </ul>
-<h4 id="单系统安装步骤">单系统安装步骤</h4>
+<h3 id="2下载安装文件">2、下载安装文件</h3>
+<ul>
+<li>从其它镜像和源中，确定<a href="https://ftp.sjtu.edu.cn/ubuntu-cd/">上海交通大学</a>下载安装文件。</li>
+<li>确定安装版本：20.04 LTS 64位</li>
+<li>确定安装文件格式：iso</li>
+<li>下载 <mark>ubuntu-20.04-desktop-amd64.iso</mark> 文件到本地。</li>
+</ul>
+<h3 id="3制作安装盘">3、制作安装盘</h3>
+<ul>
+<li>选择 Rufus 作为 USB 制作器。Rufus 只能在 Windows 上运行，并且要求 Win7 及后续版本(32或64位)，因此制作过程要在 Windows 环境中进行。</li>
+<li>从 Rufus 官网 <a href="https://rufus.ie">https://rufus.ie</a>下载 rufus.exe 文件。</li>
+<li>打开 rufus，在程序界面上依次选择下载的 iso 文件、启动模式等参数后，按开始即可。启动模式的选择很重要，和被安装电脑的启动模式有关系，BIOS 或者 UEFI，必须正确选择。</li>
+</ul>
+<h3 id="4安装">4、安装</h3>
 <ul>
 <li>将USB安装盘插入待安装的电脑。</li>
-<li>打开电脑，进入 setup，选择从 USB 启动，进入 Ubuntu 安装程序，按部就班就可以了。</li>
+<li>打开电脑，进入 setup，选择从 USB 启动，进入 Ubuntu 安装程序，按部就班，即可完成。</li>
 </ul>
-<h2 id="uget-的安装和设置">Uget 的安装和设置</h2>
+<h2 id="二下载工具-uget">二、下载工具 Uget</h2>
 <p>Uget 是一款优秀的下载管理工具，可以提高下载速度。Uget 可以作为独立的应用安装，也可以作为扩展安装到浏览器上，本例是以 Firefox for Ubuntu 为对象，安装 Uget 扩展。</p>
-<h4 id="安装-uget-和-aria2">安装 uget 和 aria2</h4>
+<h3 id="1安装-uget-和-aria2">1、安装 uget 和 aria2</h3>
 <pre><code>sudo apt install uget
 sudo apt install aria2
 </code></pre>
-<h4 id="配置-uget">配置 Uget</h4>
-<p>打开安装好的 Gget，在菜单上依次选择 <code>Edit</code> &gt; <code>Settings</code> &gt; <code>Plug-in</code> &gt; <code>Plug-in matching order</code> &gt; <code>aria2</code>，将 aria2 配置为优先。</p>
+<h3 id="2配置-uget">2、配置 Uget</h3>
+<p>打开安装好的 Gget，在菜单上依次选择 Edit &gt; Settings &gt; Plug-in &gt; Plug-in matching order &gt; aria2，将 aria2 配置为优先。</p>
 <p>至此，Uget 已经可以独立使用了，为了在浏览器上也可以使用，需要将 Uget 安装为扩展。</p>
-<h4 id="安装-uget-integrator">安装 uget-integrator</h4>
+<h3 id="3安装-uget-integrator">3、安装 uget-integrator</h3>
 <pre><code>sudo add-apt-repository ppa:uget-team/ppa
 sudo apt update
 sudo apt install uget-integrator
 </code></pre>
-<h4 id="安装扩展">安装扩展</h4>
+<h3 id="4安装扩展">4、安装扩展</h3>
 <p>打开 Firefox 浏览器，找到并点击右上角 Menu，选择 Add-ons；在 Add-ons 的界面的 Find more add-ons 中搜索 uget；在结果列表中选择 uGet Integration；点击 Add to Firefox 按钮即可。</p>
-<h2 id="常用命令">常用命令</h2>
-<h4 id="安装和删除程序">安装和删除程序</h4>
+<h2 id="三atom">三、Atom</h2>
+<p>Atom 是 Github 专门为程序员推出的一个跨平台文本编辑器，丰富的插件几乎能够满足所有 web 开发需求。
+。</p>
+<h3 id="1安装">1、安装</h3>
+<p>Ubuntu 20.04 LTS 上安装 Atom 非常简单，需要在下载 for Ubuntu 的安装文件<code>atom-amd64.deb</code>到本地，点击安装文件后，Ubuntu 会自动安装。</p>
+<p>安装文件可以在 Atom 官网 <a href="https://atom.io">atom.io</a> 发布的<a href="https://github.com/atom/atom/releases">安装文件列表</a>中下载。</p>
+<p>如果下载速度很慢，可以使用<a href="https://mirrors.huaweicloud.com/atom/">华为云镜像网站</a>。</p>
+<h2 id="四常用命令">四、常用命令</h2>
+<h3 id="1安装和删除程序">1、安装和删除程序</h3>
 <pre><code>sudo apt install &lt;程序名&gt;
 sudo apt remove &lt;程序名&gt; //删除应用（保留配置文件）
 sudo apt --purge remove &lt;程序名&gt; //删除应用(不保留配置文件)
 </code></pre>
-<h4 id="加载和卸载软件包">加载和卸载软件包</h4>
-<pre><code>sudo add-apt-repository ppa:&lt;软件包名&gt; //家在软件包
+<h3 id="2加载和卸载软件包">2、加载和卸载软件包</h3>
+<pre><code>sudo add-apt-repository ppa:&lt;软件包名&gt; //加载软件包
 sudo add-apt-repository --remove ppa:&lt;软件包名&gt; //卸载附加软件包
 sudo apt update //更新软件包
 sudo apt autoremove //卸载多余的软件包
@@ -170,25 +178,32 @@ sudo apt autoremove //卸载多余的软件包
 		
 			<li> <a href="https://genway.top/tags/ubuntu">Ubuntu</a> </li>
 		
-			<li> <a href="https://genway.top/tags/uget">Uget</a> </li>
-		
 
 	</ul>
 	
 
 	<div class="prev-next">
 		
-		 	<a class="prev" href="https://genway.top/blog/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/">上一篇</a>
+		 	<a class="prev" href="https://genway.top/blog/nine-day-trekding-in-annapurna/">上一篇</a>
 		
 		
-		 	<a class="next" href="https://genway.top/blog/atom-practice/">下一篇</a>
+		 	<a class="next" href="https://genway.top/blog/graduation-picture/">下一篇</a>
 		
 	</div>
 
+
+
 </div>
-</div>
-   </main>
-   <aside id="blog-aside">
+
+<script src="https://utteranc.es/client.js"
+		  repo = "homecat805/hugo-utterances"
+		  issue-term="pathname"
+		  theme="github-light"
+		  crossorigin="anonymous"
+		  async>
+</script>
+</main>
+   <aside id="aside">
 
 <div class="card">
 	<div class="card-title">
@@ -200,7 +215,7 @@ sudo apt autoremove //卸载多余的软件包
 
          </div>
          
-         <footer id="footer"><p>© 2021 Genway. All rights reserved.</p>
+         <footer id="site-footer"><p>© 2021 简为工作室 版权所有</p>
 </footer>
       </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

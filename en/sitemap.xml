@@ -3,7 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genway.top/en/blog/</loc>
-    <lastmod>2021-06-12T19:20:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -16,7 +15,6 @@
                 />
   </url><url>
     <loc>https://genway.top/en/categories/</loc>
-    <lastmod>2021-06-12T19:20:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -28,21 +26,7 @@
                 href="https://genway.top/en/categories/"
                 />
   </url><url>
-    <loc>https://genway.top/en/tags/css/</loc>
-    <lastmod>2021-06-12T19:20:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://genway.top/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://genway.top/en/tags/css/"
-                />
-  </url><url>
     <loc>https://genway.top/en/</loc>
-    <lastmod>2021-06-12T19:20:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -54,47 +38,7 @@
                 href="https://genway.top/en/"
                 />
   </url><url>
-    <loc>https://genway.top/en/tags/html/</loc>
-    <lastmod>2021-06-12T19:20:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://genway.top/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://genway.top/en/tags/html/"
-                />
-  </url><url>
-    <loc>https://genway.top/en/tags/markdown/</loc>
-    <lastmod>2021-06-12T19:20:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://genway.top/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://genway.top/en/tags/markdown/"
-                />
-  </url><url>
-    <loc>https://genway.top/en/blog/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/</loc>
-    <lastmod>2021-06-12T19:20:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://genway.top/blog/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://genway.top/en/blog/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/"
-                />
-  </url><url>
     <loc>https://genway.top/en/tags/</loc>
-    <lastmod>2021-06-12T19:20:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -104,31 +48,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://genway.top/en/tags/"
-                />
-  </url><url>
-    <loc>https://genway.top/en/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-06-12T19:20:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://genway.top/categories/%E7%AC%94%E8%AE%B0/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://genway.top/en/categories/%E7%AC%94%E8%AE%B0/"
-                />
-  </url><url>
-    <loc>https://genway.top/en/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://genway.top/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://genway.top/en/about/"
                 />
   </url><url>
     <loc>https://genway.top/en/topics/</loc>
