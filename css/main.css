@@ -491,8 +491,13 @@ body {
     #meta a:hover {
       color: var(--txt-primary); }
 
+#comment {
+  margin: 0 .5rem; }
+
 @media screen and (min-width: 600px) {
   #content {
+    margin: 0 1rem; }
+  #comment {
     margin: 0 1rem; }
   #meta {
     margin: 3rem 1rem; } }
