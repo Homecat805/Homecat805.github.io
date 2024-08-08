@@ -13,6 +13,6 @@
 
 [[main]]
   name = '笔记'
-  identifier = "docs"
-  pageRef = '/docs'
+  identifier = "notes"
+  pageRef = '/notes'
   weight = 30
