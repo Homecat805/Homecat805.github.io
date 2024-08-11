@@ -279,6 +279,12 @@ body {
   #navigator {
     padding: 1rem 2rem; } }
 
+@media (min-width: 1800px) {
+  #bloglist {
+    padding: 0 1rem; }
+    #bloglist .card-post-container {
+      width: 33.33%; } }
+
 #docspost {
   padding: 1rem;
   height: 100%;
@@ -663,6 +669,14 @@ body {
       margin-top: 2rem;
       font-size: .875rem; }
 
+@media (min-width: 1500px) {
+  .blog-post .blog-post-container {
+    max-width: 900px; } }
+
+@media (min-width: 1800px) {
+  .blog-post .blog-post-container {
+    max-width: 1000px; } }
+
 .docs-post {
   color: var(--slate-600); }
   .docs-post .post-header {
@@ -697,6 +711,13 @@ body {
       overflow: auto; }
     .docs-post .post-container .post-toc {
       width: 230px; } }
+
+@media (min-width: 1500px) {
+  .docs-post .post-container .post-content {
+    flex: none;
+    width: 922px; }
+  .docs-post .post-container .post-toc {
+    flex: 1; } }
 
 .markdown {
   font-size: 1rem;
