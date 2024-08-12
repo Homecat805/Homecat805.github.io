@@ -208,6 +208,10 @@ body {
   #stager .aside-blog {
     width: 300px; } }
 
+@media (min-width: 1500px) {
+  #stager .aside-default {
+    width: 300px; } }
+
 #footer {
   font-size: .875rem; }
   #footer .copyright {
@@ -279,6 +283,10 @@ body {
   #navigator {
     padding: 1rem 2rem; } }
 
+@media (min-width: 1500px) {
+  #breadcrumb {
+    padding: 1rem 2rem; } }
+
 @media (min-width: 1800px) {
   #bloglist {
     padding: 0 1rem; }
@@ -291,13 +299,21 @@ body {
   background-color: var(--white); }
 
 #menutree {
-  padding: 1rem 4rem; }
+  padding: 1rem 3rem; }
+
+@media (min-width: 800px) {
+  #menutree {
+    padding: 1rem; } }
 
 @media (min-width: 1000px) {
   #docspost {
     padding: 1rem 2rem; }
   #menutree {
     padding: 1rem; } }
+
+@media (min-width: 1500px) {
+  #menutree {
+    padding: 1rem 2rem; } }
 
 .screen-width {
   font-size: .75rem;
@@ -871,6 +887,8 @@ body {
     color: var(--slate-700); }
     #TableOfContents ul li a:hover {
       color: var(--primary-600); }
+  #TableOfContents ul ul {
+    margin-left: 1rem; }
 
 figure {
   margin-top: 1rem; }
