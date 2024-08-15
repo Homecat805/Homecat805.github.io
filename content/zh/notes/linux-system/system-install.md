@@ -1,5 +1,5 @@
 +++
-title = 'Linux 系统安装'
+title = '系统安装'
 date = 2024-08-15T10:26:09+08:00
 draft = false
 weight = 1
