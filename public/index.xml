@@ -10,7 +10,7 @@
     <lastBuildDate>Thu, 15 Aug 2024 10:26:09 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Linux 系统安装</title>
+      <title>系统安装</title>
       <link>http://localhost:1313/notes/linux-system/system-install/</link>
       <pubDate>Thu, 15 Aug 2024 10:26:09 +0800</pubDate>
       <guid>http://localhost:1313/notes/linux-system/system-install/</guid>
@@ -24,7 +24,7 @@
       <description>&lt;p&gt;友善 NanoPi R2S（以下简称R2S）是友善电子团队最新推出的一款实现满速率双千兆的、完全开源的开发板。通过刷机用作主路由或旁路由，可安装多种应用，以扩展使用功能。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Linux 基础命令</title>
+      <title>基础命令</title>
       <link>http://localhost:1313/notes/linux-system/basic-command/</link>
       <pubDate>Thu, 15 Aug 2024 10:22:15 +0800</pubDate>
       <guid>http://localhost:1313/notes/linux-system/basic-command/</guid>
