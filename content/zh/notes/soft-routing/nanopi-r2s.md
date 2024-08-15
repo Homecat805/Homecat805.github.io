@@ -1,5 +1,5 @@
 +++
-title = '友善 NanoPi R2S 路由器的基础用法'
+title = '友善 NanoPi R2S 路由器安装固件'
 date = 2024-08-12T12:21:20+08:00
 draft = false
 weight = 1
