@@ -14,11 +14,20 @@
     <loc>http://localhost:1313/notes/</loc>
     <lastmod>2024-08-08T13:10:35+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/notes/docker/install-docker-on-ubuntu/</loc>
+    <lastmod>2024-05-07T15:30:51+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/notes/linux-system/basic-command/</loc>
     <lastmod>2024-08-15T10:22:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/notes/soft-routing/</loc>
     <lastmod>2024-08-12T12:20:57+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/notes/docker/</loc>
+    <lastmod>2024-07-25T09:44:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/notes/docker/run-httpd-in-docker-as-webserver/</loc>
+    <lastmod>2023-04-15T07:00:43+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-08-15T10:26:09+08:00</lastmod>
